@@ -6,7 +6,7 @@ export default class PlayListItem extends Component {
   }
   render() {
   return (
-      <div className="col-md-3">
+      <div className="col-md-10 mt-5">
           <div className="card">
             <div className="card-block">
                 <ul className="list-group list-group-flush">

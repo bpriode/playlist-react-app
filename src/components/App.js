@@ -11,8 +11,10 @@ class App extends Component {
       <div className="App">
 
         <NavBar />
+        <div className="PlayListContainer">
         <PlayListForm />
         <PlayList />
+        </div>
       </div>
     );
   }

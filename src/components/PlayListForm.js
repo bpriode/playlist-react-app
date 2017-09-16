@@ -70,21 +70,21 @@ export default class PlayListForm extends Component {
       <form className="form w-50 mt-3" onSubmit={this.addToList}>
         <div className="form-group">
           <label htmlFor="formGroupInput">User Name: </label>
-          <input onChange={this.handleNameChange} value={this.userName}type="text" className="form-control" id="formGroupExampleInput" placeholder="Name or User Name" />
+          <input onChange={this.handleNameChange} value={this.state.userName}type="text" className="form-control" id="formGroupExampleInput" placeholder="Name or User Name" />
         </div>
         <div className="form-group">
           <label htmlFor="formGroupInput2">Artist/Band:</label>
-          <input onChange={this.handleArtistChange} value={this.songArtist}type="text" className="form-control" id="formGroupInput2" placeholder="Artist Band" />
+          <input onChange={this.handleArtistChange} value={this.state.songArtist}type="text" className="form-control" id="formGroupInput2" placeholder="Artist Band" />
         </div>
         <div className="form-group">
           <label htmlFor="formGroupInput3">Song Title:</label>
-          <input onChange={this.handleSongChange} value={this.songTitle} type="text" className="form-control" id="formGroupInput3" placeholder="Song Title" />
+          <input onChange={this.handleSongChange} value={this.state.songTitle} type="text" className="form-control" id="formGroupInput3" placeholder="Song Title" />
         </div>
         <div className="form-group">
           <label htmlFor="textarea">Notes About Song:</label>
-          <textarea onChange={this.handleNotesChange} value={this.songNotes} className="form-control" id="exampleTextarea" rows="3"></textarea>
+          <textarea onChange={this.handleNotesChange} value={this.state.songNotes} className="form-control" id="exampleTextarea" rows="3"></textarea>
         </div>
-        <button type="submit" className="btn btn-outline-success">Submit</button>
+        <button type="submit" className="btn ">Submit</button>
       </form>
     )
   }

@@ -4,7 +4,14 @@
 
 .App {
   text-align: center;
+}
 
+
+
+.PlayListContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .navbar {
@@ -21,4 +28,12 @@
 
 .form{
   font-size: 20px;
+}
+
+.card-block{
+  background-color: lightgray;
+}
+
+.btn{
+  color: seagreen;
 }
