@@ -4,6 +4,7 @@
 
 .App {
   text-align: center;
+
 }
 
 .navbar {
@@ -16,4 +17,8 @@
 
 .navbar h1{
   margin: 0px;
+}
+
+.form{
+  font-size: 20px;
 }

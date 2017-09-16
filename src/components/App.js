@@ -3,6 +3,7 @@ import '../styles/App.css';
 
 import NavBar from './NavBar.js'
 import PlayListForm from './PlayListForm.js'
+import PlayList from './PlayList.js'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
 
         <NavBar />
         <PlayListForm />
+        <PlayList />
       </div>
     );
   }
