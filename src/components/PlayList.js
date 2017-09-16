@@ -38,8 +38,9 @@ export default class PlayList extends Component {
     return (
       <div>
         <form onSubmit={this.fetchData}>
-            {individualItem}
+        <button type="submit" className="btn ">Update Playlist</button>
         </form>
+        {individualItem}
       </div>
     )
   }
