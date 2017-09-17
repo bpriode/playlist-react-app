@@ -8,10 +8,10 @@ import PlayList from './PlayList.js'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App text-center">
 
         <NavBar />
-        <div className="PlayListContainer">
+        <div className="PlayListContainer d-flex row justify-content-around">
         <PlayListForm />
         <PlayList />
         </div>
